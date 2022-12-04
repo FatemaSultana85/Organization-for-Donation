@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clothCategory">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/donationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cloth Category"
+                android:textSize="35sp"
+                android:layout_toRightOf="@+id/createPostIcon"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="@color/white"
+                >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/createPostIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cloth"
+                android:layout_toRightOf="@+id/backButton"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="30sp"
+                >
+
+            </ImageButton>
+            <View
+                android:id="@+id/line"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/blue"
+                android:layout_below="@id/donationDetails"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/line"
+                android:layout_marginTop="10sp"
+                android:id="@+id/foodLayout"
+                >
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recview_cloth"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

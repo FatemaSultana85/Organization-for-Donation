@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/aboutUs"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textSize="40sp"
+                android:layout_toRightOf="@+id/createPostIcon"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+            <TextView
+                android:id="@+id/x"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:layout_toRightOf="@+id/createPostIcon"
+                android:layout_marginLeft="220dp"
+                android:textColor="#F5F5F5"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="@color/white"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/createPostIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/about_charity_network"
+                android:layout_toRightOf="@+id/backButton"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:layout_marginLeft="40dp"
+                >
+
+            </ImageButton>
+            <View
+                android:id="@+id/line"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/blue"
+                android:layout_below="@id/aboutUs"
+                />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/des1"
+                android:layout_width="match_parent"
+                android:layout_height="400sp"
+                android:layout_below="@id/line"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10sp"
+                android:background="#E3F6FE"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:paddingLeft="10sp"
+                android:text="Our project, charity network, is an app which will serve as a communication platform between donors and charitable organizations. Through this app, donors will be able to search for charitable organizations and charitable events at their fingertips. Mean while organizations will be able to enjoy the privilege of seeking and collecting funds without any hassle. Another important feature of this application is provisions for volunteering. Anyone who is interested in serving the society can sign up as volunteers to organize fundraising events."
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/des2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How It Works:"
+                android:textSize="30sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:background="#E3F6FE"
+                android:layout_below="@+id/des1"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:paddingLeft="10sp"
+
+                ></TextView>
+            <TextView
+                android:id="@+id/des3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For Donors:"
+                android:textSize="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:background="#E3F6FE"
+                android:layout_below="@+id/des2"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:paddingLeft="10sp"
+                android:paddingTop="15sp"
+
+                ></TextView>
+            <MultiAutoCompleteTextView
+                android:id="@+id/des4"
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#E3F6FE"
+                android:textColor="@color/blue"
+                android:layout_below="@id/des3"
+                android:text="Step1: Register with charity network
+                              Step2:donors will find organization’s post in the EXPLORE page and events related post in the EVENT page.
+                              step3:Search for donation seeking posts based on type of donation."
+                android:textSize="20sp"
+                android:paddingLeft="10sp"
+                android:cursorVisible="false"
+                android:editable="false"
+                />
+            <TextView
+                android:id="@+id/des5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For organization:"
+                android:textSize="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:background="#E3F6FE"
+                android:layout_below="@+id/des4"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:paddingLeft="10sp"
+                android:paddingTop="15sp"
+
+                ></TextView>
+            <MultiAutoCompleteTextView
+                android:id="@+id/des6"
+                android:layout_width="match_parent"
+                android:layout_height="110sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#E3F6FE"
+                android:textColor="@color/blue"
+                android:layout_below="@id/des5"
+                android:text="Step1: Register with charity network
+                              Step2: organization can post for funding and donations based on different criteria(food,cloth,medicine etc)"
+                android:textSize="20sp"
+                android:paddingLeft="10sp"
+                android:cursorVisible="false"
+                android:editable="false"
+                />
+            <TextView
+                android:id="@+id/des7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For volunteers:"
+                android:textSize="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:background="#E3F6FE"
+                android:layout_below="@+id/des6"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:paddingLeft="10sp"
+                android:paddingTop="15sp"
+
+                ></TextView>
+            <MultiAutoCompleteTextView
+                android:id="@+id/des8"
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="#E3F6FE"
+                android:textColor="@color/blue"
+                android:layout_below="@id/des7"
+                android:text="Step1.Register and login as volunteers.
+                              Step2:Volunteer can post about upcoming events"
+                android:textSize="20sp"
+                android:paddingLeft="10sp"
+                android:layout_marginBottom="10sp"
+                android:cursorVisible="false"
+                android:editable="false"
+                />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

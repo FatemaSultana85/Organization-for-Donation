@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donationDetails">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/donationDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donation Details"
+                android:textSize="35sp"
+                android:layout_toRightOf="@+id/createPostIcon"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="@color/white"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/createPostIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/donation_details"
+                android:layout_toRightOf="@+id/backButton"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:layout_marginLeft="13sp"
+                >
+
+            </ImageButton>
+            <View
+                android:id="@+id/line"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/blue"
+                android:layout_below="@id/donationDetails"
+                />
+
+
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category:"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line"
+
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/addCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fooooooooooood"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line"
+                android:layout_toRightOf="@+id/category"
+                >
+            </TextView>
+            <View
+                android:id="@+id/line0"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/blue"
+                android:layout_below="@id/addCategory"
+                android:layout_marginLeft="20sp"
+                />
+
+
+
+
+
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line0"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/donationTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donation To:"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line0"
+
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/addDonationTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jagoron Organization"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line0"
+                android:layout_toRightOf="@+id/donationTo"
+                >
+            </TextView>
+            <View
+                android:id="@+id/line2"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/blue"
+                android:layout_below="@id/donationTo"
+                android:layout_marginLeft="20sp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line2"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/donationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title:"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line2"
+
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/addDonationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donation For Cloth"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line2"
+                android:layout_toRightOf="@+id/donationTitle"
+                >
+
+            </TextView>
+            <View
+                android:id="@+id/line3"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/blue"
+                android:layout_below="@id/addDonationTitle"
+                android:layout_marginLeft="20sp"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line3"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/donationDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line3"
+
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/addDonationDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We want to collect cloth for homeless people"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line3"
+                android:layout_toRightOf="@+id/donationDescription"
+                >
+            </TextView>
+            <View
+                android:id="@+id/line4"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/blue"
+                android:layout_below="@id/addDonationDescription"
+                android:layout_marginLeft="20sp"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line4"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/lastDateDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last date to donate:"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line4"
+
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/addLastDateDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25-01-2021"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line4"
+                android:layout_toRightOf="@+id/lastDateDetails"
+                >
+            </TextView>
+            <View
+                android:id="@+id/line5"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/blue"
+                android:layout_below="@id/lastDateDetails"
+                android:layout_marginLeft="20sp"
+                />
+
+             <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line5"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/mobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Number:"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line5"
+
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/addMobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01852365237"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line5"
+                android:layout_toRightOf="@+id/mobileNumber"
+                >
+            </TextView>
+            <View
+                android:id="@+id/line6"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/blue"
+                android:layout_below="@id/mobileNumber"
+                android:layout_marginLeft="20sp"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line6"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="10sp"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/contactPageLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="20sp"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/line6"
+
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/addContactPageLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="38dp"
+                android:layout_toRightOf="@+id/contactPageLocation"
+                android:text="23/D BTCL office Mogbazar,dhaka"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_location_on_24"
+                android:layout_below="@id/addContactPageLocation"
+                android:background="@color/white"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="10sp"
+                android:id="@+id/showOnMapIcon"
+                />
+            <TextView
+                android:id="@+id/showOnMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show On Map..."
+                android:textSize="16sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="15sp"
+                android:layout_below="@+id/addContactPageLocation"
+                android:layout_toRightOf="@+id/showOnMapIcon"
+                >
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/addToWishList"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/showOnMap"
+                android:text="Add to Wishlist"
+                android:background="@color/white"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/add"
+
+                />
+            <TextView
+                android:id="@+id/afterAdded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addToWishList"
+                android:text="Add to wishlist"
+                android:textColor="#8B0000"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+
+                ></TextView>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/createevent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Event"
+                android:textSize="40sp"
+                android:layout_toRightOf="@+id/createPostIcon"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="@color/white"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/createPostIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_new_event"
+                android:layout_toRightOf="@+id/backButton"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:layout_marginLeft="33dp"
+                >
+
+            </ImageButton>
+            <View
+                android:id="@+id/line"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/blue"
+                android:layout_below="@id/createevent"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/line"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                >
+
+            </ImageButton>
+            <EditText
+                android:id="@+id/edit_event_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line"
+                android:layout_marginLeft="25sp"
+                android:hint="category"
+                android:textColor="@color/blue"
+                android:layout_marginTop="25dp"
+                >
+            </EditText>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/edit_event_cat"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/edit_event_cat"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_event_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="25sp"
+                android:hint="Enter a title"
+                android:textColor="@color/blue"
+
+                >
+
+            </EditText>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/edit_event_title"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose Description"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/edit_event_title"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_event_des"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/description"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Add a description...."
+                android:background="#E3F6FE"
+                android:textColor="@color/blue"
+
+                ></EditText>
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event start date"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="35sp"
+                android:layout_below="@+id/edit_event_des"
+                >
+
+            </TextView>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/edit_event_des"
+                android:background="@color/white"
+                android:layout_marginTop="40sp"
+                >
+
+            </ImageButton>
+
+
+            <EditText
+                android:id="@+id/edit_event_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15-02-2021"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="50sp"
+                android:layout_below="@+id/startDate"
+                android:drawableRight="@drawable/ic_baseline_calendar_today_24"
+                android:background="#E3F6FE"
+
+                >
+            </EditText>
+            <EditText
+                android:id="@+id/edit_event_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:30PM"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="50sp"
+                android:layout_below="@+id/startDate"
+                android:drawableRight="@drawable/add_time"
+                android:background="#E3F6FE"
+                android:layout_toRightOf="@+id/edit_event_start_date"
+                >
+            </EditText>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/edit_event_start_date"
+                android:background="@color/white"
+                android:layout_marginTop="60sp"
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event end date"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="60sp"
+                android:layout_below="@+id/edit_event_start_date"
+                >
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/edit_event_end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15-02-2021"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="50sp"
+                android:layout_below="@+id/endDate"
+                android:drawableRight="@drawable/ic_baseline_calendar_today_24"
+                android:background="#E3F6FE"
+                >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edit_event_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:30PM"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="50sp"
+                android:layout_below="@+id/endDate"
+                android:drawableRight="@drawable/add_time"
+                android:background="#E3F6FE"
+                android:layout_toRightOf="@+id/edit_event_end_date"
+                >
+            </EditText>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_layers_24"
+                android:layout_below="@id/edit_event_end_date"
+                android:background="@color/white"
+                android:layout_marginTop="60sp"
+                >
+
+            </ImageButton>
+            <TextView
+                android:id="@+id/eventLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add location"
+                android:textSize="20sp"
+                android:layout_marginLeft="25sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginTop="60sp"
+                android:layout_below="@+id/edit_event_end_date"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/edit_event_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eventLocation"
+                android:layout_marginLeft="25sp"
+                android:hint="Add event location"
+                android:textColor="@color/blue"
+                android:layout_marginTop="20sp"
+                >
+
+            </EditText>
+
+            <Button
+                android:id="@+id/edit_event_button"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_below="@id/edit_event_loc"
+                android:text="Edit Event"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

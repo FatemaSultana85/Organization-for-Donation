@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/parent_layout_wishlist"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cbe6ef"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/wishlist_orgName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+
+                    android:text="organization Post"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/wishlist_categoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:padding="3dp"
+                android:text="category:"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/wishlist_Category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="abcd"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:padding="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/blue"
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/wishlist_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="postTitle"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            />
+        <TextView
+            android:id="@+id/wishlist_Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="location"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            />
+
+
+        <TextView
+            android:id="@+id/wishlist_LastDate"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:text="date"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textColor="#cbe6ef"
+
+            />
+
+
+        <TextView
+            android:id="@+id/wishlist_Description"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:text="description"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textColor="#cbe6ef"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

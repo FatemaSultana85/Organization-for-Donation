@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="create_post"></string>
+    <color name="colorPrimary">#2D383F</color>
+    <color name="colorPrimaryDark">#123E5A</color>
+    <color name="colorAccent">#FF6C02</color>
+    <color name="background">#EEEDEF</color>
+    <string-array name="category">
+        <item>Choose Category</item>
+        <item>Cloth</item>
+        <item>Food</item>
+        <item>Medicine</item>
+        <item>Book</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="categoryEvent">
+        <item>Choose Category</item>
+        <item>Clean Up</item>
+        <item>Education</item>
+        <item>Medical Camp</item>
+        <item>Planting</item>
+        <item>Save Animals</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

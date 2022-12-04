@@ -1,0 +1,12 @@
+whole design
+login signup
+password reset
+email verification
+profile
+userCategory retrieve
+add post
+add event
+edit post
+edit event
+add to wishlist
+location related all
