@@ -1,6 +1,5 @@
-## Charity Network
-Charity Network is an app that will serve as a communication platform among donors, volunteers, and charitable organizations. Through this app, donors will be able to search for charitable organizations through Google Maps and have charitable events at their fingertips.Mean while organizations will be able to enjoy the privilege of seeking and collecting funds without any hassle. Another important feature of this application is provisions for volunteering. Anyone who
-is interested in serving the society can sign up as volunteers to organize fundraising events.
+## Organization for Donation
+"Organization for Donation" is an app that will act as a platform for communication between donors, volunteers, and charitable organizations. Donors will be able to look for nonprofit groups and philanthropic events using Google Maps through this app. In the meantime, groups will be able to enjoy the convenience of seeking and collecting contributions without difficulty. Volunteering is another significant component of this application. Anyone interested in helping the community might volunteer to arrange fundraising activities.
 
 ## Platform
 Developed in Android Studio 4.1.3
@@ -10,7 +9,7 @@ java
 ## How to run "Charity Network" android app
 Install "Android Studio" On your Pc API of emulator is required 27 or later(For example:Pixel 2 API 27)
 ##### 1.1st Download the zip file
-##### 2.Unzip the file if you have "android Studio" application in your system's C drive then place/paste the unzipped file in the following directory("C:\Users\Fardin(Signed in Profile Name)\AndroidStudioProjects")
+##### 2.Unzip the file if you have "android Studio" application in your system's C drive then place/paste the unzipped file in the following directory("C:\Users\Fatema(Signed in Profile Name)\AndroidStudioProjects")
 ##### 3.Go to File->Open->C:\Users\(Signed in Profile Name)\AndroidStudioProjects->CharityNetwork->CharityNetwork and open
 ##### 4.Finally run the Project
 ## Features
