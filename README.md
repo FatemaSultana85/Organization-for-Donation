@@ -10,7 +10,7 @@ java
 Install "Android Studio" On your Pc API of emulator is required 27 or later(For example:Pixel 2 API 27)
 ##### 1. 1st Download the zip file
 ##### 2. Unzip the file if you have "android Studio" application in your system's C drive then place/paste the unzipped file in the following directory("C:\Users\Fatema(Signed in Profile Name)\AndroidStudioProjects")
-##### 3. Go to File->Open->C:\Users\(Signed in Profile Name)\AndroidStudioProjects->OrganizationforDonation and open OrganizationforDonation
+##### 3. Go to File->Open->C:\Users\(Signed in Profile Name)\AndroidStudioProjects->OrganizationforDonation->OrganizationforDonation and open 
 ##### 4. Finally run the Project
 ## Features
 #### For donors
