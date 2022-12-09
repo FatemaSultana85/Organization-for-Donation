@@ -2,7 +2,7 @@
 "Organization for Donation" is an app that will act as a platform for communication between donors, volunteers, and charitable organizations. Donors will be able to look for nonprofit groups and philanthropic events using Google Maps through this app. In the meantime, groups will be able to enjoy the convenience of seeking and collecting contributions without difficulty. Volunteering is another significant component of this application. Anyone interested in helping the community might volunteer to arrange fundraising activities.
 
 ## Platform
-Developed in Android Studio 4.1.3
+Developed in Android Studio 4.1.3 
 
 ## Language
 java
