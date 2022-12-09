@@ -13,7 +13,7 @@ Install "Android Studio" On your Pc API of emulator is required 27 or later(For 
 ##### 3. Go to File->Open->C:\Users\(Signed in Profile Name)\AndroidStudioProjects->OrganizationforDonation->OrganizationforDonation and open 
 ##### 4. Finally run the Project
 ## Features
-#### For donors
+#### For donors:
 ##### * Donors will discover posts about organizations on the EXPLORE page based on categories, and posts about events on the EVENT page.
 ##### * Donors can use Google Maps to locate the organizations and activities.
 ##### * Donors can bookmark a certain topic on the wishList website.
