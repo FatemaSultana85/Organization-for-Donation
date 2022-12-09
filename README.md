@@ -8,17 +8,17 @@ Developed in Android Studio 4.1.3
 java
 ## How to run "Organization for Donation" android app
 Install "Android Studio" On your Pc API of emulator is required 27 or later(For example:Pixel 2 API 27)
-##### 1.1st Download the zip file
-##### 2.Unzip the file if you have "android Studio" application in your system's C drive then place/paste the unzipped file in the following directory("C:\Users\Fatema(Signed in Profile Name)\AndroidStudioProjects")
-##### 3.Go to File->Open->C:\Users\(Signed in Profile Name)\AndroidStudioProjects->OrganizationforDonation and open OrganizationforDonation
-##### 4.Finally run the Project
+##### 1. 1st Download the zip file
+##### 2. Unzip the file if you have "android Studio" application in your system's C drive then place/paste the unzipped file in the following directory("C:\Users\Fatema(Signed in Profile Name)\AndroidStudioProjects")
+##### 3. Go to File->Open->C:\Users\(Signed in Profile Name)\AndroidStudioProjects->OrganizationforDonation and open OrganizationforDonation
+##### 4. Finally run the Project
 ## Features
 #### For donors
-##### 1 donors will find organization’s post in the EXPLORE page based on categories and events related post in the EVENT page.
-##### 2 donors can use google map to find the location of the organizations and events.
-##### 3 donors can save a particular post in the wishList page.
-##### 4 donors can edit their profile.
-##### 5.donors can see if any event is occuring today in the notification page.
+##### * Donors will discover posts about organizations in the EXPLORE page based on categories, and posts about events in the EVENT page.
+##### * Donors can use Google Maps to locate the organizations and activities.
+##### * Donors can bookmark a certain topic on the wishList website.
+##### * Donors can make changes to their profile.
+##### * Donors can check the notification page to see if any events are taking place today.
 #### For organizations:
 ##### 1 organization can post for funding and donations based on different criteria(food,cloth,medicine etc)
 ##### 2.organization can edit or delete their post
